@@ -46,5 +46,25 @@ console.log(address.indexOf('Barisha'))
 var indesigner = address.indexOf('designer') === -1 ? 'AL-MAMUN IS NOT A DESIGNER' : 'AL-MAMUN IS GOOD A DESIGNER' 
 // OPORER VARIABLE TAH HOLOH array theake compair korah
 console.log(indesigner)
-     
+ 
+   // LOOPS FOR LOOPS AND NAMTAR WORK
+   
+   var namta = 100
+   for( var i = 1; i <= 10; i++){
+       console.log(namta + ' X ' + i + ' = ' + namta*i)
+   }
 
+   // loops in array!
+
+   var looparray = ['Mohammad','Al-mamun','Tech',22,1999,'Muladi','Barishal']
+   for (var i = 0; i<looparray.length;i++){
+       console.log(looparray[i])
+   }
+     
+//    ektah vinno dhormih 
+ 
+ for (var i = 1; i < 20; i+=2){
+     console.log(i)
+ }
+
+// motamuti done
