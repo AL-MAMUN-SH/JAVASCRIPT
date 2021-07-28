@@ -68,3 +68,58 @@ console.log(indesigner)
  }
 
 // motamuti done
+
+var a = ['alim','dar',2020,'dart',false]
+var b=['hoga','moga']
+a.push(b);
+b.shift()
+b.pop()
+console.log(a);
+console.log(a.length)
+
+// 1 array inserted 2 valus
+
+// BASIC OPERATOR 
+
+var now = 2021
+var jhon = 38
+var mun = 21 ;
+
+console.log(now - jhon)
+console.log(typeof a)
+// Grater less?
+
+var x,y,z
+x = 2020
+y = 28
+z = 20
+
+console.log(x-y)
+
+console.log(x-2)
+console.log(x*2)
+console.log(x/2)
+var compair = y > z 
+console.log(compair)
+var type = "mohammad almamoon"
+console.log( type.length)
+
+// ekhane all mathmetical operator
+
+// BOOLEAN LOGIC
+
+var typeHolder = "ALMAMUN"
+var equal =16
+var age = 16
+ if (age > 20){
+     console.log("ALmamun is unfullfilled")
+ }else if(age > 20 || age < equal){
+    console.log("ALmamun is fullfilled")
+ }else if (age >= 20 && age <= equal || age <=equal){
+    console.log("ALmamun is POORMAN")
+ }else{
+    console.log("ALmamun is Pushed")
+ }
+
+//  if elase work complited||
+
