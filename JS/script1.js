@@ -52,3 +52,22 @@ console.log(jane)
 
 
 //  Done new object
+
+// OBJECT ANOTHER METHOD OOP Concept
+
+var john1 = {
+    firstName : 'AL-MAMUN',
+    lastName : 'Sharder',
+    birthYear : 1999,
+    family : ['amma','abba','vai','bon','vaginah'],
+    job : 'student',
+    isMarried : false,
+    ccage : function(){
+        this.age = 3000 - this.birthYear
+    }
+
+}
+john1.ccage()
+console.log(john1)
+
+// using function with OBJECT
