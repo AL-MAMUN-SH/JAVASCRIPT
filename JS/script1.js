@@ -71,3 +71,53 @@ john1.ccage()
 console.log(john1)
 
 // using function with OBJECT
+
+//  BMI A  HUMAN BEINGS ?]
+
+var almamunweight = 70 //oviously KG format
+var almamunheight = 1.778 // oviously converted MEATERS
+var khadizahWeight = 60 //oviously KG format
+var khadizahHeight = 1.61 // oviously converted MEATERS
+
+var almamunBMI = almamunweight / (almamunheight * almamunheight)
+var khadizaBMI = khadizahWeight / (khadizahHeight * khadizahHeight)
+console.log(khadizaBMI,almamunBMI)
+
+var equalsBMI = almamunBMI < khadizaBMI
+console.log(equalsBMI)
+
+//  BMI DOne
+
+// Now 3 equivalent started
+
+var mamun = (20+40+60)/3
+var jaber = (21+40+60)/3
+var misu = (22+40+60)/3
+
+console.log(mamun)
+console.log(jaber)
+console.log(misu)
+
+// THIS Will Be 2 compair
+
+if(mamun > jaber){
+    console.log('Mamun\'s Team wings with ' + ' ' + mamun + ' Points')
+}else if(jaber > mamun){
+    console.log('Jaber\'s Team wings with ' + ' ' + jaber + ' Points')
+}else{
+    console.log('This Match Drawn')
+}
+
+//  This Will Be 3 compair
+
+if(mamun > jaber && mamun > misu){
+    console.log('Mamun\'s Team wings with ' + ' ' + mamun + ' Points')
+}else if(jaber > mamun && jaber > misu){
+    console.log('Jaber\'s Team wings with ' + ' ' + jaber + ' Points')
+}else if(misu > mamun && jaber < misu){
+    console.log('Misus\'s Team wings with ' + ' ' + misu + ' Points')
+}else{
+    console.log('This Match Drawn')
+}
+
+// DOne It also Worked
